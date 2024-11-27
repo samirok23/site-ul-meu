@@ -1,0 +1,120 @@
+/* Stilizare de bază */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Meniu de Navigare */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Secțiunea Principală */
+main h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+main h2 {
+    color: #555;
+}
+
+main p {
+    font-size: 1.2em;
+    color: #666;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+button#read-more {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+button#read-more:hover {
+    transform: scale(1.1);
+}
+
+/* Imagine */
+img {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+details {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+summary {
+    font-weight: bold;
+    color: #000000bf;
+    list-style: none;
+}
+
+summary:hover {
+    color: #f70303;
+}
+/* Liste */
+ul {
+    list-style-type: square;
+    text-align: left;
+    display: inline-block;
+    margin: 20px auto;
+    padding: 0;
+}
+
+/* Tabel */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: #333;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
